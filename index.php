@@ -27,5 +27,18 @@
         <h3>And what about you?</h3>
         <button class="know-more">Know More</button>
     </section>
+    <section class="about-us">
+        <h1 class="about-us-title">We are your next employees!</h1>
+        <div class="about-container">
+            <div class="about-text">
+                <h1>The latest technologies.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, molestiae quod perspiciatis quae cupiditate maxime? Error veritatis illo labore? Expedita natus suscipit sint laborum illum eligendi a, ratione rem minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloremque cumque, dolore officiis deserunt repellendus omnis odit fuga. Odit non minima repellendus adipisci voluptates libero sapiente obcaecati ut aliquam. Illum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi in ad aliquam, repellat exercitationem ipsam hic omnis deserunt! Deleniti nihil harum repudiandae corrupti ipsam sequi illum ducimus distinctio officia ipsum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias ullam dicta vitae. Optio perspiciatis nam, culpa quisquam molestiae, cum obcaecati possimus fugit, dignissimos velit repudiandae qui enim. Aperiam, impedit in?</p>
+                <button class="know-more know-more-about">Know more</button>
+            </div>
+            <div class="about-image">
+                <img src="public/img/about-employees.jpg" alt="">
+            </div>
+        </div>
+    </section>
 </body>
 </html>
