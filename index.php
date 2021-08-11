@@ -21,5 +21,11 @@
             </ul>
         </nav>
     </menu>
+    <section class="hero">
+        <img src="public/img/hero.jpg" alt="">
+        <h1>Hi i guess we can do something together</h1>
+        <h3>And what about you?</h3>
+        <button class="know-more">Know More</button>
+    </section>
 </body>
 </html>
