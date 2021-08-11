@@ -3,3 +3,27 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+ul, ol {
+    list-style: none;
+}
+
+.top-menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.top-menu img {
+    width: 50px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;  
+}
+
+.nav ul {
+    display: flex;
+    column-gap: 20px;
+}
