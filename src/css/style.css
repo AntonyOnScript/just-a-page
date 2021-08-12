@@ -158,6 +158,7 @@ ul, ol {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .post-something form div:nth-child(1) {
@@ -166,11 +167,15 @@ ul, ol {
 
 .post-something form button {
     margin-top: 50px;
+    width: 300px;
+    max-width: 100%;
+    min-width: 200px;
+    align-self: flex-end;
 }
 
 .input-field {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .input-field input, .input-field textarea {

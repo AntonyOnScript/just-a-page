@@ -81,11 +81,13 @@ if(isset($_POST["image"]) && isset($_POST["description"])) {
         <h1>Here we can post something and it will appears on Blog Section!</h1>
         <form method="post">
             <div class="input-field">
-                <label for="image">Image url:</label>
+                <label for="image"><h1>Image url:</h1></label>
+                <br><br>
                 <input type="url" name="image" id="image" placeholder="A direct link to an image">
             </div>
             <div class="input-field">
-                <label for="description">Desired description:</label>
+                <label for="description"><h1>Desired description:</h1></label>
+                <br><br>
                 <textarea name="description" id="description" rows="5" placeholder="Just a description"></textarea>
             </div>
             <button type="submit" class="know-more">Submit</button>
