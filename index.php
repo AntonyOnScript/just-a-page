@@ -70,5 +70,8 @@
             <button type="submit" class="know-more">Submit</button>
         </form>
     </section>
+    <footer>
+        <p>Developed by <a href="https://github.com/AntonyOnScript/">Antony</a></p>
+    </footer>
 </body>
 </html>

@@ -177,3 +177,15 @@ ul, ol {
     margin-left: 10px;
     padding: 5px;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    padding: 60px;
+}
+
+footer a {
+    color: white;
+}
