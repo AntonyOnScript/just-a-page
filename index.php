@@ -57,6 +57,7 @@ if(isset($_POST["image"]) && isset($_POST["description"])) {
         </div>
     </section>
     <section class="blog-section">
+        <img src="public/img/blog-section-background.jpg" class="blog-section-background">
         <h1>Blog Section</h1>
         <div class="posts">
             <?php 

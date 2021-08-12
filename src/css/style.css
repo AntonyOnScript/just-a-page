@@ -116,6 +116,15 @@ ul, ol {
     display: flex;
     flex-direction: column;
     padding: 60px;
+    position: relative;
+}
+
+.blog-section-background {
+    position: absolute;
+    width: 100%;
+    top: -200px;
+    left: 0px;
+    z-index: -1;
 }
 
 .blog-section h1 {
@@ -148,6 +157,7 @@ ul, ol {
 }
 
 .post-something {
+    background-color: white;
     padding: 60px;
     display: flex;
     flex-direction: column;
