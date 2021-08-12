@@ -1,3 +1,19 @@
+<?php 
+
+$con = new PDO('mysql:host=localhost;dbname=just-a-page', 'root', '');
+
+if(isset($_POST["image"]) && isset($_POST["description"])) {
+    
+    $stmt = $con->prepare("INSERT INTO posts (imageLink, description) VALUES(:imageUrl, :description)");
+
+    $stmt->bindParam(":imageUrl", $_POST["image"]);
+    $stmt->bindParam(":description", $_POST["description"]);
+
+    $stmt->execute();
+
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,12 +60,17 @@
         <h1>Blog Section</h1>
         <div class="posts">
             <?php 
-                for($i = 0; $i < 4; $i++) {
+                $select = $con->query("SELECT * FROM posts");
+
+                $result = $select->fetchAll(PDO::FETCH_ASSOC);
+                $resultLength = count($result);
+
+                for($i = $resultLength - 1; $i > $resultLength - 5; $i--) {
                     echo 
                     '
                         <figure class="post-card">
-                            <img src="public/img/hammer-post-example.jpg" alt="">
-                            <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquid consequatur deserunt fugit vero, ipsum laborum quia repellat doloribus minima similique commodi dicta molestiae itaque ab sed voluptates! Nam, blanditiis?</figcaption>
+                            <img src="'.$result[$i]["imageLink"].'" alt="">
+                            <figcaption>'.$result[$i]["description"].'</figcaption>
                         </figure>
                     ';
                 }
