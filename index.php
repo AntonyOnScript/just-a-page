@@ -57,7 +57,18 @@
         </div>
     </section>
     <section class="post-something">
-        h1
+        <h1>Here we can post something and it will appears on Blog Section!</h1>
+        <form method="post">
+            <div class="input-field">
+                <label for="image">Image url:</label>
+                <input type="url" name="image" id="image" placeholder="A direct link to an image">
+            </div>
+            <div class="input-field">
+                <label for="description">Desired description:</label>
+                <textarea name="description" id="description" rows="5" placeholder="Just a description"></textarea>
+            </div>
+            <button type="submit" class="know-more">Submit</button>
+        </form>
     </section>
 </body>
 </html>
