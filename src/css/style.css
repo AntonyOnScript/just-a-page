@@ -37,6 +37,30 @@ ul, ol {
     column-gap: 20px;
 }
 
+.nav-link {
+    text-decoration: none;
+    color: black; 
+    position: relative;  
+}
+
+.nav-link::after {
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 5px;
+    bottom: -10px;
+    border-radius: 5px;
+    left: 50%;
+    transition: .3s all;
+}
+
+.nav-link:hover.nav-link::after {
+    left: 0px;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
 .hero {
     position: relative;
     display: flex;

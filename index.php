@@ -29,11 +29,11 @@ if(isset($_POST["image"]) && isset($_POST["description"])) {
         <img src="public/img/logo.svg" alt="">
         <nav class="nav">
             <ul>
-                <li>Home</li>
-                <li>Shop</li>
-                <li>Gallery</li>
-                <li>Blog</li>
-                <li>About</li>
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link">Shop</a></li>
+                <li><a href="#" class="nav-link">Gallery</a></li>
+                <li><a href="#" class="nav-link">Blog</a></li>
+                <li><a href="#" class="nav-link">About</a></li>
             </ul>
         </nav>
     </menu>
