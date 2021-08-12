@@ -40,5 +40,24 @@
             </div>
         </div>
     </section>
+    <section class="blog-section">
+        <h1>Blog Section</h1>
+        <div class="posts">
+            <?php 
+                for($i = 0; $i < 4; $i++) {
+                    echo 
+                    '
+                        <figure class="post-card">
+                            <img src="public/img/hammer-post-example.jpg" alt="">
+                            <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquid consequatur deserunt fugit vero, ipsum laborum quia repellat doloribus minima similique commodi dicta molestiae itaque ab sed voluptates! Nam, blanditiis?</figcaption>
+                        </figure>
+                    ';
+                }
+            ?>
+        </div>
+    </section>
+    <section class="post-something">
+        h1
+    </section>
 </body>
 </html>

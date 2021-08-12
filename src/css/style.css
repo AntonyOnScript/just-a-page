@@ -107,3 +107,42 @@ ul, ol {
 .know-more-about {
     margin-top: 48px;
 }
+
+.blog-section {
+    background-color: #c55900e3;
+}
+
+.blog-section {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.blog-section h1 {
+    margin: 0px;
+    color: white;
+    align-self: center;
+}
+
+.posts {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.post-card {
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.post-card figcaption {
+    margin: 20px 0px;
+}
+
+.post-card img{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 300px;
+}
